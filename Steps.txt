@@ -1,0 +1,14 @@
+Instructions for ubuntu::
+
+
+1. Install driver "com.mysql.jdbc.Driver".
+2. Install mysql on ubuntu
+3. Enter into database by using "mysql -u root -p" and provide password. 
+4. Execute following queries:
+	> create databse myDatabase;
+	> use myDatabse;
+	> create table birthday(name varchar(30),date varchar(30));
+
+5. Enter command on terminal "export  CLASSPATH=$CLASSPATH:/usr/share/java/mysql.jar"
+6. Now run "javac BirthdayDatabase.java" and "java BirthdayDatabase" from anywhere.
+
